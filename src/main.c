@@ -1,4 +1,4 @@
-//EA876A 2018/s1
+// EA876A 2018/s1
 // Lab01 - Somador de Números
 // GABRIELA AKEMI SHIMA - RA135819
 
@@ -148,6 +148,12 @@ int main () {
 }
 
 float str2float (char *num) {
+  /*
+  Eu tinha feito uma função, mas ela começou a dar erro. Então substituí por
+  esse código que encontrei para implementação de um atof. )':
+  Source: http://crackprogramming.blogspot.com.br/2012/10/implement-atof.html
+  Acessado: 09/03/2018 às 18:03
+  */
   if (!num || !*num) {
      return 0;
    }
