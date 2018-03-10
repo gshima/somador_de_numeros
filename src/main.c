@@ -124,6 +124,8 @@ int main () {
         }
         else  {
           estado = 3;
+          numeros_convertidos[k-1] = 0;
+          --k;
           for(int g = j ; g >= 0; --g) { //limpa o vetor auxiliar [char*]num
             num[g] = 0;
           }
